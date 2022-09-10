@@ -6,3 +6,7 @@ I´m going to follow [JAB react course](https://www.youtube.com/watch?v=VoMyUgI-
 ## First Activity
 
 The first video teach you the basics about react, how to install node, create an app with `npx create-react-app`, and jsx syntax. Then you have to make a react app yourself followings his instructions
+
+## Second and Third Activities
+
+Practicing with useRef hook, events, target and functions: [Activ. 2 & 3](https://www.youtube.com/watch?v=mu5CUU3ZtpE&list=PLRM7PpbqqStKo-NiCuzuYwewZmd9b-EZ9&index=2)
