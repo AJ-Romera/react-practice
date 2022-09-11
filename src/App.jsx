@@ -3,6 +3,7 @@ import "./App.css";
 import img1 from "./assets/images/asa-yuri.jpg";
 import img2 from "./assets/images/mikael.jpg";
 import img3 from "./assets/images/menta.jpg";
+import imgOk from "./assets/images/ok.jpg";
 
 /* Activity 1:
 
@@ -28,7 +29,7 @@ function App() {
 
 /* Activity 2 */
 
-function App() {
+/* function App() {
   let useCounter = useRef();
 
   function changeImage(e) {
@@ -80,6 +81,63 @@ function App() {
         onChange={reflectOnCounter}
       />
     </div>
+  );
+} */
+
+/* Activity 3: */
+
+function App() {
+  let names = ["Asa Yuri", "Mikael", "Menta"];
+
+  const hideImage = (e) => {
+    e.target.parentNode.style.backgroundColor = "transparent";
+    e.target.src.includes("ok")
+      ? (e.target.style.visibility = "hidden")
+      : (e.target.src = imgOk);
+  };
+  const hideName = (e) => {
+    if (e.target.innerHTML === "Viewed") {
+      e.target.style.visibility = "hidden";
+    } else {
+      e.target.innerHTML = "Viewed";
+    }
+  };
+  return (
+    <main>
+      <div className="card">
+        <img
+          className="card__image"
+          src={img1}
+          alt="By Yuri Manei"
+          onClick={hideImage}
+        />
+        <span className="card__name" onClick={hideName}>
+          {names[0]}
+        </span>
+      </div>
+      <div className="card">
+        <img
+          className="card__image"
+          src={img2}
+          alt="By Mika Borgia"
+          onClick={hideImage}
+        />
+        <span className="card__name" onClick={hideName}>
+          {names[1]}
+        </span>
+      </div>
+      <div className="card">
+        <img
+          className="card__image"
+          src={img3}
+          alt="By mentatdgt"
+          onClick={hideImage}
+        />
+        <span className="card__name" onClick={hideName}>
+          {names[2]}
+        </span>
+      </div>
+    </main>
   );
 }
 
