@@ -147,9 +147,8 @@ export default App;
 
 /* Activity 4 */
 
-import "./App.css";
-
-const App = () => {
+/* 
+  const App = () => {
   const nicePeople = [
     {
       name: "Asa Yuri",
@@ -197,4 +196,76 @@ const App = () => {
     </>
   );
 };
+export default App; */
+
+/* Activity 5 */
+
+const App = () => {
+  const currencyExchange = [
+    {
+      currency: "Euro",
+      exchangeRate: 1,
+    },
+    {
+      currency: "Argentine peso",
+      exchangeRate: 143.26,
+    },
+    {
+      currency: "Colombian peso",
+      exchangeRate: 4.412,
+    },
+    {
+      currency: "Mexican peso",
+      exchangeRate: 20.07,
+    },
+    {
+      currency: "Dollar",
+      exchangeRate: 1.01,
+    },
+  ];
+
+  const [amount, setAmount] = useState(0);
+  const [resultado1, setResultado1] = useState(0);
+  const [resultado2, setResultado2] = useState(0);
+  const [resultado3, setResultado3] = useState(0);
+  const [resultado4, setResultado4] = useState(0);
+
+  const exchange = (e) => {
+    setAmount(e.target.value);
+    setResultado1(e.target.value * currencyExchange[1].exchangeRate);
+    setResultado2(e.target.value * currencyExchange[2].exchangeRate);
+    setResultado3(e.target.value * currencyExchange[3].exchangeRate);
+    setResultado4(e.target.value * currencyExchange[4].exchangeRate);
+  };
+
+  return (
+    <div className="exchange-container">
+      <div className="exchange-container__input-container">
+        <label htmlFor="ex0">{currencyExchange[0].currency}</label>
+        <input id="ex0" type="number" value={amount} onChange={exchange} />
+      </div>
+
+      <div className="exchange-container__input-container">
+        <label htmlFor="ex1">{currencyExchange[1].currency}</label>
+        <input id="ex1" type="number" value={resultado1} readOnly />
+      </div>
+
+      <div className="exchange-container__input-container">
+        <label htmlFor="ex2">{currencyExchange[2].currency}</label>
+        <input id="ex2" type="number" value={resultado2} readOnly />
+      </div>
+
+      <div className="exchange-container__input-container">
+        <label htmlFor="ex3">{currencyExchange[3].currency}</label>
+        <input id="ex3" type="number" value={resultado3} readOnly />
+      </div>
+
+      <div className="exchange-container__input-container">
+        <label htmlFor="ex4">{currencyExchange[4].currency}</label>
+        <input id="ex4" type="number" value={resultado4} readOnly />
+      </div>
+    </div>
+  );
+};
+
 export default App;
