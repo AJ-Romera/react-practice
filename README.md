@@ -10,3 +10,7 @@ The first video teach you the basics about react, how to install node, create an
 ## Second and Third Activities
 
 Practicing with useRef hook, events, target and functions: [Activ. 2 & 3](https://www.youtube.com/watch?v=mu5CUU3ZtpE&list=PLRM7PpbqqStKo-NiCuzuYwewZmd9b-EZ9&index=2)
+
+## Fourth and Fifth Activities
+
+Practicing useState [Activ. 4 & 5](https://www.youtube.com/watch?v=Y5soxUjHg5g&list=PLRM7PpbqqStKo-NiCuzuYwewZmd9b-EZ9&index=3)

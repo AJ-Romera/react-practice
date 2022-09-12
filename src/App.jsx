@@ -1,9 +1,10 @@
-import React, { useRef } from "react";
+/* import React, { useRef } from "react"; */
+import React, { useState } from "react";
 import "./App.css";
-import img1 from "./assets/images/asa-yuri.jpg";
+/* import img1 from "./assets/images/asa-yuri.jpg";
 import img2 from "./assets/images/mikael.jpg";
 import img3 from "./assets/images/menta.jpg";
-import imgOk from "./assets/images/ok.jpg";
+import imgOk from "./assets/images/ok.jpg"; */
 
 /* Activity 1:
 
@@ -86,7 +87,7 @@ function App() {
 
 /* Activity 3: */
 
-function App() {
+/* function App() {
   let names = ["Asa Yuri", "Mikael", "Menta"];
 
   const hideImage = (e) => {
@@ -141,4 +142,59 @@ function App() {
   );
 }
 
+export default App;
+ */
+
+/* Activity 4 */
+
+import "./App.css";
+
+const App = () => {
+  const nicePeople = [
+    {
+      name: "Asa Yuri",
+      hobby: "making dev projects on her own.",
+    },
+    {
+      name: "Mikael",
+      hobby: "cooking. He loves omelette with onion.",
+    },
+    {
+      name: "Menta",
+      hobby: "practicing wrestling.",
+    },
+    {
+      name: "Demian",
+      hobby: "reading books.",
+    },
+  ];
+  const [counter, setCounter] = useState(0);
+  const [phrase, setPhrase] = useState();
+
+  const getPhrase = () => {
+    setCounter(counter + 1);
+    if (counter >= nicePeople.length - 1) {
+      setCounter(0);
+    }
+    setPhrase(
+      <p>
+        <span className="phrase__span--red">{nicePeople[counter].name}</span>´s
+        main hobby is
+        <span className="phrase__span--green">
+          {" "}
+          {nicePeople[counter].hobby}
+        </span>
+      </p>
+    );
+  };
+
+  return (
+    <>
+      <button className="get-phrase-button" onClick={getPhrase}>
+        Get a phrase
+      </button>
+      <div className="phrase">{phrase}</div>
+    </>
+  );
+};
 export default App;

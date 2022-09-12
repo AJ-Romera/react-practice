@@ -66,3 +66,24 @@ main {
 .container__imput {
   padding: 0.5rem 3rem;
 }
+
+/* Activity 4 Styles */
+
+.get-phrase-button {
+  margin: 2rem;
+  padding: 0.6rem 2rem;
+  font-size: 1.05rem;
+}
+
+.phrase {
+  margin: 0 2rem;
+  font-size: 1.6rem;
+}
+.phrase__span--red {
+  color: crimson;
+  font-weight: 800;
+}
+.phrase__span--green {
+  color: olivedrab;
+  font-weight: 800;
+}
