@@ -15,7 +15,11 @@ const ProductCard = ({ name, imgUrl, color, price, setTotalPay }) => {
         <span>
           Price: <br /> {price}€
         </span>
-        <button onClick={pay}>Buy</button>
+        {price > 0 ? (
+          <button onClick={pay}>Buy</button>
+        ) : (
+          <button disabled>Buy</button>
+        )}
       </div>
     </div>
   );
@@ -26,7 +30,7 @@ ProductCard.defaultProps = {
   imgUrl:
     "https://images.pexels.com/photos/2690766/pexels-photo-2690766.jpeg?auto=compress&cs=tinysrgb&w=400",
   color: "chocolate",
-  price: "0",
+  price: "--",
 };
 
 export default ProductCard;
