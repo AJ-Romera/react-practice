@@ -5,6 +5,7 @@ import "./App.css";
 import img2 from "./assets/images/mikael.jpg";
 import img3 from "./assets/images/menta.jpg";
 import imgOk from "./assets/images/ok.jpg"; */
+import ProductCard from "./ProductCard";
 
 /* Activity 1:
 
@@ -200,7 +201,7 @@ export default App; */
 
 /* Activity 5 */
 
-const App = () => {
+/* const App = () => {
   const currencyExchange = [
     {
       currency: "Euro",
@@ -265,6 +266,111 @@ const App = () => {
         <input id="ex4" type="number" value={resultado4} readOnly />
       </div>
     </div>
+  );
+};
+
+export default App; */
+
+// Activity 6
+
+const App = () => {
+  const products = [
+    {
+      name: "Pro Headphones+Mic",
+      imgUrl:
+        "https://images.pexels.com/photos/3587478/pexels-photo-3587478.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      color: "peru",
+      price: 159.95,
+    },
+    {
+      name: "MK Watch",
+      imgUrl:
+        "https://images.pexels.com/photos/2783873/pexels-photo-2783873.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      color: "royalblue",
+      price: 94,
+    },
+    {
+      name: "Donuts",
+      imgUrl:
+        "https://images.pexels.com/photos/3338681/pexels-photo-3338681.jpeg",
+      color: "crimson",
+      price: 5,
+    },
+    {
+      name: "Blue Shoes",
+      imgUrl:
+        "https://images.pexels.com/photos/13236694/pexels-photo-13236694.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      color: "teal",
+      price: 40,
+    },
+    {
+      name: "GoPro",
+      imgUrl:
+        "https://images.pexels.com/photos/11031052/pexels-photo-11031052.jpeg?cs=srgb&dl=pexels-moises-ribeiro-11031052.jpg&fm=jpg",
+      color: "green",
+      price: 100,
+    },
+    {
+      name: "Laptop",
+      imgUrl:
+        "https://images.pexels.com/photos/4058226/pexels-photo-4058226.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      color: "darkmagenta",
+      price: 400,
+    },
+  ];
+
+  const [totalPay, setTotalPay] = useState(0);
+
+  return (
+    <>
+      <h2 className="total-to-pay">Total to pay: {totalPay}€</h2>
+      <div className="product-card__container">
+        <ProductCard
+          name={products[0].name}
+          imgUrl={products[0].imgUrl}
+          color={products[0].color}
+          price={products[0].price}
+          setTotalPay={setTotalPay}
+        />
+        <ProductCard
+          name={products[1].name}
+          imgUrl={products[1].imgUrl}
+          color={products[1].color}
+          price={products[1].price}
+          setTotalPay={setTotalPay}
+        />
+        <ProductCard
+          name={products[2].name}
+          imgUrl={products[2].imgUrl}
+          color={products[2].color}
+          price={products[2].price}
+          setTotalPay={setTotalPay}
+        />
+        <ProductCard
+          name={products[3].name}
+          imgUrl={products[3].imgUrl}
+          color={products[3].color}
+          price={products[3].price}
+          setTotalPay={setTotalPay}
+        />
+        <ProductCard
+          name={products[4].name}
+          imgUrl={products[4].imgUrl}
+          color={products[4].color}
+          price={products[4].price}
+          setTotalPay={setTotalPay}
+        />
+        <ProductCard
+          name={products[5].name}
+          imgUrl={products[5].imgUrl}
+          color={products[5].color}
+          price={products[5].price}
+          setTotalPay={setTotalPay}
+        />
+        <ProductCard />
+        <ProductCard />
+      </div>
+    </>
   );
 };
 

@@ -14,3 +14,11 @@ Practicing with useRef hook, events, target and functions: [Activ. 2 & 3](https:
 ## Fourth and Fifth Activities
 
 Practicing useState [Activ. 4 & 5](https://www.youtube.com/watch?v=Y5soxUjHg5g&list=PLRM7PpbqqStKo-NiCuzuYwewZmd9b-EZ9&index=3)
+
+## The Sixth Activity
+
+Components and Props [Activ. 6](https://www.youtube.com/watch?v=JEVAFDq3A7Q&list=PLRM7PpbqqStKo-NiCuzuYwewZmd9b-EZ9&index=4)
+
+## Seventh, Eighth, Ninth and Tenth Activities
+
+Map, filter, find, includes, key awesome practice [Activ. 7, 8, 9 & 10](https://www.youtube.com/watch?v=f167jT11sFo&list=PLRM7PpbqqStKo-NiCuzuYwewZmd9b-EZ9&index=5)
