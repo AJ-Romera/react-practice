@@ -211,9 +211,27 @@ main {
   margin-top: 0.8rem;
 } */
 
-/* Activity 7 Styles */
+/* Activity 8 Styles */
 
-#act8__title {
+/* #act8__title {
+  width: 100%;
+  font-size: 2.5rem;
+  margin: 1rem 0 3rem 2.5rem;
+}
+#root {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  font-size: 1.4rem;
+}
+
+.card-product {
+  width: 16%;
+} */
+
+/* Activity 9 Styles */
+
+#act9__title {
   width: 100%;
   font-size: 2.5rem;
   margin: 1rem 0 3rem 2.5rem;

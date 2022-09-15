@@ -7,7 +7,8 @@ import img3 from "./assets/images/menta.jpg";
 import imgOk from "./assets/images/ok.jpg"; */
 /* import ProductCard from "./ProductCard"; */
 // import Act7 from "./Act7";
-import Act8 from "./Act8";
+// import Act8 from "./Act8";
+import Act9 from "./Act9";
 
 /* Activity 1:
 
@@ -424,8 +425,12 @@ const App = () => {
     <>
       {/* <h1 id="act7__title">Activity 7</h1>
       <Act7 products={products} /> */}
-      <h1 id="act8__title">Activity 8: Products cheaper than 100€</h1>
-      <Act8 products={products} />
+      {/* <h1 id="act8__title">Activity 8: Products cheaper than 100€</h1>
+      <Act8 products={products} /> */}
+      <h1 id="act9__title">
+        Activity 9: Finds the first products who´s first letter is "b"
+      </h1>
+      <Act9 products={products} />
     </>
   );
 };
