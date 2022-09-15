@@ -26,3 +26,7 @@ Map, filter, find, includes, key awesome practice [Activ. 7, 8, 9 & 10](https://
 ## Eleventh & Twelfth
 
 useEffect, fetch & Spread Operator [Activ. 11 & 12](https://www.youtube.com/watch?v=pBNHeb8QTN0&list=PLRM7PpbqqStKo-NiCuzuYwewZmd9b-EZ9&index=6)
+
+## thirteenth
+
+useContext [Activ. 13](https://www.youtube.com/watch?v=Ihn2vV0cbDQ&list=PLRM7PpbqqStKo-NiCuzuYwewZmd9b-EZ9&index=7)

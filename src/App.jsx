@@ -10,7 +10,8 @@ import imgOk from "./assets/images/ok.jpg"; */
 // import Act8 from "./Act8";
 // import Act9 from "./Act9";
 // import Act10 from "./Act10";
-import Act11 from "./Act11";
+// import Act11 from "./Act11";
+import Act12 from "./Act12";
 
 /* Activity 1:
 
@@ -384,7 +385,7 @@ export default App; */
 // Activities 7 & 8
 
 const App = () => {
-  const products = [
+  /* const products = [
     {
       name: "Pro Headphones+Mic",
       imgUrl:
@@ -421,7 +422,7 @@ const App = () => {
         "https://images.pexels.com/photos/4058226/pexels-photo-4058226.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       price: 400,
     },
-  ];
+  ]; */
 
   return (
     <>
@@ -441,7 +442,8 @@ const App = () => {
         below the product.
       </h1>
       <Act10 products={products} /> */}
-      <Act11 />
+      {/* <Act11 /> */}
+      <Act12 />
     </>
   );
 };
