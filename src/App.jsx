@@ -1,11 +1,13 @@
-/* import React, { useRef } from "react"; */
-import React, { useState } from "react";
+/* import React, { useRef, useState } from "react"; */
+import React from "react";
 import "./App.css";
 /* import img1 from "./assets/images/asa-yuri.jpg";
 import img2 from "./assets/images/mikael.jpg";
 import img3 from "./assets/images/menta.jpg";
 import imgOk from "./assets/images/ok.jpg"; */
-import ProductCard from "./ProductCard";
+/* import ProductCard from "./ProductCard"; */
+// import Act7 from "./Act7";
+import Act8 from "./Act8";
 
 /* Activity 1:
 
@@ -273,7 +275,7 @@ export default App; */
 
 // Activity 6
 
-const App = () => {
+/* const App = () => {
   const products = [
     {
       name: "Pro Headphones+Mic",
@@ -370,6 +372,60 @@ const App = () => {
         <ProductCard />
         <ProductCard />
       </div>
+    </>
+  );
+};
+
+export default App; */
+
+// Activities 7 & 8
+
+const App = () => {
+  const products = [
+    {
+      name: "Pro Headphones+Mic",
+      imgUrl:
+        "https://images.pexels.com/photos/3587478/pexels-photo-3587478.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      price: 159.95,
+    },
+    {
+      name: "MK Watch",
+      imgUrl:
+        "https://images.pexels.com/photos/2783873/pexels-photo-2783873.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      price: 94,
+    },
+    {
+      name: "Donuts",
+      imgUrl:
+        "https://images.pexels.com/photos/3338681/pexels-photo-3338681.jpeg",
+      price: 5,
+    },
+    {
+      name: "Blue Shoes",
+      imgUrl:
+        "https://images.pexels.com/photos/13236694/pexels-photo-13236694.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      price: 40,
+    },
+    {
+      name: "GoPro",
+      imgUrl:
+        "https://images.pexels.com/photos/11031052/pexels-photo-11031052.jpeg?cs=srgb&dl=pexels-moises-ribeiro-11031052.jpg&fm=jpg",
+      price: 109,
+    },
+    {
+      name: "Laptop",
+      imgUrl:
+        "https://images.pexels.com/photos/4058226/pexels-photo-4058226.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      price: 400,
+    },
+  ];
+
+  return (
+    <>
+      {/* <h1 id="act7__title">Activity 7</h1>
+      <Act7 products={products} /> */}
+      <h1 id="act8__title">Activity 8: Products cheaper than 100€</h1>
+      <Act8 products={products} />
     </>
   );
 };
