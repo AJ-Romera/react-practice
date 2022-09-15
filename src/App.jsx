@@ -6,10 +6,11 @@ import img2 from "./assets/images/mikael.jpg";
 import img3 from "./assets/images/menta.jpg";
 import imgOk from "./assets/images/ok.jpg"; */
 /* import ProductCard from "./ProductCard"; */
-import Act7 from "./Act7";
+// import Act7 from "./Act7";
 // import Act8 from "./Act8";
 // import Act9 from "./Act9";
 // import Act10 from "./Act10";
+import Act11 from "./Act11";
 
 /* Activity 1:
 
@@ -424,10 +425,10 @@ const App = () => {
 
   return (
     <>
-      <h1 id="act7__title">Activity 7</h1>
+      {/* <h1 id="act7__title">Activity 7</h1>
       <div className="box">
         <Act7 products={products} />
-      </div>
+      </div> */}
       {/* <h1 id="act8__title">Activity 8: Products cheaper than 100€</h1>
       <Act8 products={products} /> */}
       {/* <h1 id="act9__title">
@@ -440,6 +441,7 @@ const App = () => {
         below the product.
       </h1>
       <Act10 products={products} /> */}
+      <Act11 />
     </>
   );
 };

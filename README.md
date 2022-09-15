@@ -22,3 +22,7 @@ Components and Props [Activ. 6](https://www.youtube.com/watch?v=JEVAFDq3A7Q&list
 ## Seventh, Eighth, Ninth and Tenth Activities
 
 Map, filter, find, includes, key awesome practice [Activ. 7, 8, 9 & 10](https://www.youtube.com/watch?v=f167jT11sFo&list=PLRM7PpbqqStKo-NiCuzuYwewZmd9b-EZ9&index=5)
+
+## Eleventh & Twelfth
+
+useEffect, fetch & Spread Operator [Activ. 11 & 12](https://www.youtube.com/watch?v=pBNHeb8QTN0&list=PLRM7PpbqqStKo-NiCuzuYwewZmd9b-EZ9&index=6)
