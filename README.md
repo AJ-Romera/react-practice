@@ -30,3 +30,7 @@ useEffect, fetch & Spread Operator [Activ. 11 & 12](https://www.youtube.com/watc
 ## thirteenth
 
 useContext [Activ. 13](https://www.youtube.com/watch?v=Ihn2vV0cbDQ&list=PLRM7PpbqqStKo-NiCuzuYwewZmd9b-EZ9&index=7)
+
+## Fourteenth & Fifteenth
+
+ROUTER & SPA [Activ. 14 & 15](https://www.youtube.com/watch?v=P8MeyDbMEBE&list=PLRM7PpbqqStKo-NiCuzuYwewZmd9b-EZ9&index=8)

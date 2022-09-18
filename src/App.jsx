@@ -12,7 +12,8 @@ import imgOk from "./assets/images/ok.jpg"; */
 // import Act10 from "./Act10";
 // import Act11 from "./Act11";
 // import Act12 from "./Act12";
-import Act13 from "./Act13";
+// import Act13 from "./Act13";
+import Act14 from "./Act14";
 
 /* Activity 1:
 
@@ -445,7 +446,8 @@ const App = () => {
       <Act10 products={products} /> */}
       {/* <Act11 /> */}
       {/* <Act12 /> */}
-      <Act13 />
+      {/* <Act13 /> */}
+      <Act14 />
     </>
   );
 };

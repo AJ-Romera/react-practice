@@ -273,7 +273,7 @@
 
 /* Act 13 Styles */
 
-.languages {
+/* .languages {
   display: flex;
   justify-content: center;
 }
@@ -333,4 +333,38 @@ p {
   text-align: center;
   font-size: 1.6rem;
   padding: 0.6rem;
+} */
+
+/* Act 14 Styles */
+
+nav {
+  margin-bottom: 2rem;
+  display: flex;
+}
+a {
+  text-decoration: none;
+  color: #eee;
+  background-color: darkslateblue;
+  font-size: 1.05rem;
+  padding: 0.625rem 1.25rem;
+}
+.active-link {
+  color: aliceblue;
+  background-color: royalblue;
+  scale: 1.1;
+}
+
+section {
+  display: flex;
+  flex-flow: column wrap;
+  margin: auto;
+  width: 30rem;
+}
+img {
+  width: 100%;
+  height: 45rem;
+}
+h2 {
+  font-size: 2rem;
+  margin: 0.5rem 0;
 }
