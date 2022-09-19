@@ -368,3 +368,14 @@ h2 {
   font-size: 2rem;
   margin: 0.5rem 0;
 }
+
+.home-products {
+  width: 30%;
+  margin-bottom: 1.5rem;
+}
+.home-product--transparent {
+  text-decoration: none;
+  color: #eee;
+  background-color: transparent;
+  padding: 0;
+}

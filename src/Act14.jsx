@@ -8,20 +8,22 @@ import Shoes from "./act14Components/Shoes";
 import GoPro from "./act14Components/GoPro";
 import Laptop from "./act14Components/Laptop";
 import Error404 from "./act14Components/Error404";
+import Home from "./act14Components/Home";
 
 function Act14() {
   return (
     <BrowserRouter>
       <NavBar />
       <Routes>
-        <Route path="/" element={<Headphones />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/headphones" element={<Headphones />} />
         <Route path="/watch" element={<Watch />} />
         <Route path="/donuts" element={<Donuts />} />
+        <Route path="/donus" element={<Navigate to="/donuts" />} />
         <Route path="/shoes" element={<Shoes />} />
         <Route path="/gopro" element={<GoPro />} />
         <Route path="/laptop" element={<Laptop />} />
-        <Route path="/headphones" element={<Navigate to="/" />} />
-        <Route path="*" element={<Error404 />} />
+        <Route path="/*" element={<Error404 />} />
       </Routes>
     </BrowserRouter>
   );

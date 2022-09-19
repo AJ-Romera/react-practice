@@ -9,6 +9,12 @@ function NavBar() {
         end
         to="/"
       >
+        Home
+      </NavLink>
+      <NavLink
+        className={({ isActive }) => (isActive ? "active-link" : null)}
+        to="/headphones"
+      >
         Page 1
       </NavLink>
       <NavLink
