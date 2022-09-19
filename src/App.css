@@ -335,7 +335,7 @@ p {
   padding: 0.6rem;
 } */
 
-/* Act 14 Styles */
+/* Act 14 & 15 Styles */
 
 nav {
   margin-bottom: 2rem;
@@ -370,10 +370,13 @@ h2 {
 }
 
 .home-products {
-  width: 30%;
-  margin-bottom: 1.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+  justify-items: center;
+  margin: 0 1rem 1rem 1rem;
 }
-.home-product--transparent {
+.home-products--transparent {
   text-decoration: none;
   color: #eee;
   background-color: transparent;

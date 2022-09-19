@@ -38,7 +38,11 @@ function Home() {
   return (
     <div className="home-products">
       {products.map((product) => (
-        <Link className="home-product--transparent" to={`/${product.name}`}>
+        <Link
+          key={product.name}
+          className="home-products--transparent"
+          to={`/${product.name}`}
+        >
           <img src={product.imgUrl} alt={product.name} />
         </Link>
       ))}
