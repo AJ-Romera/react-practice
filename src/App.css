@@ -382,3 +382,41 @@ h2 {
   background-color: transparent;
   padding: 0;
 }
+
+/* Act 16 Styles */
+
+label {
+  font-size: 1.8rem;
+  margin-right: 0.4rem;
+}
+input {
+  width: 15rem;
+  padding: 0.3rem;
+}
+button {
+  width: auto;
+  padding: 0.2rem 0.75rem;
+  margin: 0 0 0 0.5rem;
+  font-size: 1rem;
+}
+.title {
+  margin: 2rem;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  margin: 3rem;
+}
+.main-container__form {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.6rem;
+}
+.product {
+  margin-bottom: 0.75rem;
+  font-size: 1.2rem;
+}
+.deleteButton {
+  background-color: red;
+  margin-left: 1rem;
+}

@@ -14,7 +14,8 @@ import imgOk from "./assets/images/ok.jpg"; */
 // import Act12 from "./Act12";
 // import Act13 from "./Act13";
 // import Act14 from "./Act14";
-import Act15 from "./Act15";
+// import Act15 from "./Act15";
+import Act16 from "./Act16";
 
 /* Activity 1:
 
@@ -449,7 +450,8 @@ const App = () => {
       {/* <Act12 /> */}
       {/* <Act13 /> */}
       {/* <Act14 /> */}
-      <Act15 />
+      {/* <Act15 /> */}
+      <Act16 />
     </>
   );
 };

@@ -34,3 +34,12 @@ useContext [Activ. 13](https://www.youtube.com/watch?v=Ihn2vV0cbDQ&list=PLRM7Ppb
 ## Fourteenth & Fifteenth
 
 ROUTER & SPA [Activ. 14 & 15](https://www.youtube.com/watch?v=P8MeyDbMEBE&list=PLRM7PpbqqStKo-NiCuzuYwewZmd9b-EZ9&index=8)
+
+## Sixteenth
+
+useReducer [Activ. 16](https://www.youtube.com/watch?v=czrqIWP13NA&list=PLRM7PpbqqStKo-NiCuzuYwewZmd9b-EZ9)
+
+## COURSE´S FINAL MEGA PROJECT
+
+It englobes everything learned on the course [FINAL PROJECT OF THE COURSE
+](https://www.youtube.com/watch?v=-cUVnjFRe08&list=PLRM7PpbqqStKo-NiCuzuYwewZmd9b-EZ9&index=10)
