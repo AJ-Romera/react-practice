@@ -1,5 +1,6 @@
 /* import React, { useRef, useState } from "react"; */
 import React from "react";
+import { BrowserRouter } from "react-router-dom";
 import "./App.css";
 /* import img1 from "./assets/images/asa-yuri.jpg";
 import img2 from "./assets/images/mikael.jpg";
@@ -15,7 +16,8 @@ import imgOk from "./assets/images/ok.jpg"; */
 // import Act13 from "./Act13";
 // import Act14 from "./Act14";
 // import Act15 from "./Act15";
-import Act16 from "./Act16";
+// import Act16 from "./Act16";
+import FinalAct from "./FinalAct";
 
 /* Activity 1:
 
@@ -451,7 +453,10 @@ const App = () => {
       {/* <Act13 /> */}
       {/* <Act14 /> */}
       {/* <Act15 /> */}
-      <Act16 />
+      {/* <Act16 /> */}
+      <BrowserRouter>
+        <FinalAct />
+      </BrowserRouter>
     </>
   );
 };
